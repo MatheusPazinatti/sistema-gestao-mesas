@@ -2,6 +2,10 @@
 
 PWA para restaurantes de comida por quilo e à vontade. Roda no navegador do celular ou tablet, sem precisar de app store.
 
+> **Contexto:** projeto criado para substituir o controle de pedidos por mesa feito em papel em um restaurante. Funciona como template: um único arquivo de configuração adapta o app a cada cliente.
+>
+> **Status:** versão inicial, em evolução. Desenvolvido com apoio de IA (Claude), do levantamento do problema ao mockup e ao código.
+
 ---
 
 ## Funcionalidades
@@ -97,6 +101,13 @@ src/
 3. Pessoa por quilo vai até a balança → garçom digita o valor pesado na tela
 4. Adiciona bebidas e extras com os botões +/−
 5. Caixa acessa a mesa, confere o resumo e fecha a conta
+
+---
+
+## Limitações atuais
+
+- Os dados ficam salvos só no navegador de cada aparelho (`localStorage`), então não sincronizam entre garçom e caixa em dispositivos diferentes
+- Não há login nem backend
 
 ---
 
